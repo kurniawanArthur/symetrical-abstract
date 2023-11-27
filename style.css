@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#controls {
+    position: absolute;
+    padding: 10px;
+    border: 2px solid skyblue;
+    left: 35px;
+    top: 15px;
+    width: 250px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 2px;
+    scale: 0.9;
+}
+button {
+    color: black;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 10px 40px;
+    width: 225px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#resetButton {
+    margin-top: 4px;
+}
+
+input, label{
+    margin-top: 5px;
+    color: skyblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#screenshot {
+    margin-top: 2px;
+}
